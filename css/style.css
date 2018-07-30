@@ -1,0 +1,48 @@
+
+table {
+    font-family: Roboto;
+    font-size: 14px;
+    color: darkslategrey;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.pricing_plan {
+    font-size: 25px;
+}
+
+.plan_name {
+    font-size: 20px;
+
+}
+
+.icon-name {
+    font-style: normal;
+}
+
+.table, th, td {
+    border: 1px solid gray;
+}
+
+.usd {
+    font-size: 40px;
+}
+
+.button {
+    border-bottom-style: unset;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 12px;
+}
+
+.button_standard {
+    color: aqua;
+
+}
