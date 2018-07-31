@@ -1,48 +1,133 @@
 
+body {
+    background-image: url('background.png');
+    background-position: center;
+}
+
 table {
-    font-family: Roboto;
-    font-size: 14px;
-    color: darkslategrey;
+    margin: auto;
+    margin-top: 50px;
+    font-family: Arimo;
+    font-size: 16px;
+    color: #484848;
     border-collapse: collapse;
     text-align: center;
 }
 
 th, td {
-    padding: 20px;
-    padding-right: 45px;
-    padding-left: 45px;
+    width: 277px;
+    height: 69px;
+}
+
+tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background: #e3e3e3;
+}
+
+th:first-child {
+    background: #fafafa;
+}
+
+tr:nth-child(2) {
+    background: #fafafa;
+}
+
+tr:last-child td:first-child {
+    background: #dddddd;
 }
 
 .pricing_plan {
-    font-size: 25px;
+    font-size: 30px;
 }
 
-.plan_name {
-    font-size: 20px;
-
+.plan_standard {
+    font-size: 24px;
+    color: white;
+    background-color: #89c331;
 }
 
-.icon-name {
-    font-style: normal;
+.plan_ultimate {
+    font-size: 30px;
+    color: white;
+    background-color: #f04a56;
 }
 
-.table, th, td {
-    border: 1px solid gray;
+.plan_premium {
+    font-size: 24px;
+    color: white;
+    background-color: #20807c;
 }
 
-.usd {
-    font-size: 40px;
+.price {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
 }
 
-.button {
-    border-bottom-style: unset;
-    padding: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-    font-size: 12px;
+.cents {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
 }
 
-.button_standard {
-    color: aqua;
+.month {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    text-align: left;
+}
 
+.contact {
+    border: none;
+    border-radius: 5px;
+    width: 192px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #484848;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+.buy_standard {
+    border: none;
+    border-radius: 5px;
+    width: 192px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #89c331;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+.buy_ultimate {
+    border: none;
+    border-radius: 5px;
+    width: 192px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #f04a56;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+.buy_premium {
+    border: none;
+    border-radius: 5px;
+    width: 192px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #20807c;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
 }
